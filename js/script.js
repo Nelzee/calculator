@@ -110,7 +110,7 @@ equals.addEventListener('click', function(e){
 })
 
 comma.addEventListener('click', function(e) {
-    if(values[1] == '' && !String(values[0]).includes('.')){   
+    if(values[1] == '' && !(String(values[0]).includes('.'))){   
         values[0] = String(values[0]) + '.';
         display(values);
     }
