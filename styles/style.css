@@ -1,0 +1,106 @@
+html {
+    background-color: #646262;
+}
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    color: papayawhip;
+}
+
+.container {
+    max-width: 500px;
+    max-height: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(6, auto);
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0px;
+    row-gap: 20px;
+    column-gap: 5px;
+    background-color: #403b3b;
+}
+
+.screen {
+    padding: 2.5em;
+    grid-column: 1 / 5;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 30px;
+}
+.screen .ans {
+    padding: 0px;
+    background-color: white;
+    height: 3em;
+    font-weight: bolder;
+    font-size: large;
+    text-align: right;
+}
+.container button {
+    height: 3em;
+    width: 7em;
+    background-color: rgb(0, 0, 0);
+    border: #0d6f21 solid 2px;  
+}
+
+.clear{
+    color: white;
+}
+
+.clear:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+.equals {
+    width: auto !important;
+    grid-column: 2 / 5 !important; 
+    margin-bottom: 34px;
+    color: white;
+}
+.equals:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.operator {
+    background-color: rgb(132, 128, 128) !important;
+    color: #75eeaa;
+    font-weight: bold;
+}
+
+.operator:hover {
+    background-color: white !important;
+    color: black;
+}
+.number {
+    background-color: silver ;
+    color: white;
+}
+
+.number:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.comma {
+    background-color: silver ;
+    color: white;
+}
+
+.comma:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.backspace {
+    background-color: silver ;
+    color: white;
+}
+
+.backspace:hover {
+    background-color: yellowgreen;
+    color: black;
+}
